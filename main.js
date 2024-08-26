@@ -1,5 +1,5 @@
 let datosJson;
-        fetch('/js/resumen.json')
+        fetch('resumen.json')
         .then(response => response.json())
         .then((data) => {
             datosJson = data;
