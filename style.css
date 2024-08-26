@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+    font-family: merriweather sans;
+    color: #2c2c2c;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+#container{
+    display: grid;
+    border: 3px solid #2c2c2c;
+    width: 290px;
+    height:560px;
+    border-radius: 26px;
+    overflow: hidden;
+    --webkit-box-shadow: 0px 10px 18px -4px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 10px 18px -4px rgba(0,0,0,0.17);
+    box-shadow: 0px 10px 18px -4px rgba(0,0,0,0.17);
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+}
+img{
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h1{
+    font-weight: 100;
+    font-size: 20px;
+}
+#black-part{
+    background-color: #2c2c2c;
+}
+#black-part h1{
+    color: white;
+    padding-left: 30px;
+    margin-bottom: -10px;
+}
+#black-part span{
+    color: white;
+    margin-left: 8px;
+    margin-bottom: -40px;
+}
+h2{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#white-part{
+    background-color: rgb(245, 245, 245);
+}
+#box{
+    display: grid;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+#box h3{
+    font-size: 14px;
+}
+#box p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.saldo{
+    margin-top: 10px;
+    text-align: right;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    background-color: #fec900;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+button:hover{
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+}
+#white-part p:nth-child(4), p:nth-child(3){
+    margin-left: 30px;
+    color: #2c2c2c;
+}
